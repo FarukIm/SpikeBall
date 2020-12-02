@@ -65,3 +65,9 @@ body {
     flex-direction: row;
 }
 
+.titleImage{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+}
