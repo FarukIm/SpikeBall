@@ -5,7 +5,9 @@ body {
     margin: 0 auto;
 
 } 
-
+html{
+    scroll-behavior: smooth;
+}
 .fa{
     padding: 2px;
     font-size: 15;
@@ -18,7 +20,6 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 3px;
-    
 }
 
 .fa-instagram:hover{
@@ -93,17 +94,77 @@ body {
     justify-content: center;
 }
 
-.news-container{
-    height: 300px;
-}
 
 .carousel-button{
     width: 25px;
-    height: 25px;
+    height: 40px;
+    opacity: 0.2;
+    transition: all 0.4s ease;
+}
+
+.carousel-button:hover{
+    opacity:1;
 }
 
 .pos{
     margin-top: 150px;
 }
 
+.carousel h3{
+    margin-left: 50px;
+}
 
+.news-spacing{
+    margin: 100px auto;
+}
+
+.card button{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    transition: all 0.3s ease;
+}
+
+.card button:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.schedule{
+    display: flex;
+    content:center;
+    justify-content: center;
+}
+
+.schedule p{
+    content:center;
+    justify-content: center;
+    padding: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display:flex;
+
+}
+
+.col-1{
+    margin: 0 2;
+    display: center;
+    border: 1px solid black;
+    padding: 5px 50px;
+    width: fit-content;
+}
+
+.schedule h3{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.schedule-spacing{
+    margin: 50px auto;
+}
+
+.contact-spacing{
+    margin: 50px auto;
+    justify-content: center;
+    display: center;
+}
