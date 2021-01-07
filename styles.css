@@ -5,6 +5,10 @@ body {
     margin: 0 auto;
 
 } 
+
+a:hover{
+    opacity: 0.8;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -86,6 +90,7 @@ html{
 
 .heading{
     position: absolute;
+    left:0;
     width: 100%;
     height: 100%;
     z-index:2;
@@ -119,7 +124,8 @@ html{
 }
 
 .news-spacing{
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card button{
@@ -180,4 +186,23 @@ html{
 
 .timetable-space{
     margin:30px auto;
+}
+
+.footer{
+    color: white;
+}
+
+.footer a{
+    color:white;
+    text-decoration:none;
+    text-decoration:underline;
+    transition: all 0.3 ease;
+}
+
+.footer a:hover{
+    opacity: 0.8;
+}
+
+.contact-title{
+    padding-top: 10px;
 }
